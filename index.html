@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+    <style>
+      .underlined-input {
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        margin-left: 60px;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-white">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <img src="./img1.png" height="50px" width="50px" style="margin-left: 250px;">
+          </li>
+        <li class="nav-item" style="color: rgb(122, 25, 148);">
+          <h1 style="font-size: 30px;margin-top: 10px;">Luminartechnolab</h1>
+        </li>       
+      </ul>
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item fs-5" style="font-weight:900;">
+                 <a class="nav-link" href="http://web.archive.org/web/20211126071459/https://luminartechnolab.com/">HOME</a>
+              </li>
+
+              <li class="nav-item fs-5 ms-3" style="font-weight:900;">
+                <a class="nav-link" href="http://web.archive.org/web/20210423163035/https://www.luminartechnolab.com/about">ABOUT</a>
+             </li>
+
+             <li class="nav-item fs-5 ms-3" style="font-weight:900;">
+                <a class="nav-link" href="http://web.archive.org/web/20210423163319/https://www.luminartechnolab.com/courses">COURSES</a>
+             </li>
+
+             <li class="nav-item fs-5 ms-3" style="font-weight:900;">
+                <a class="nav-link" href="http://web.archive.org/web/20210423103514/https://www.luminartechnolab.com/placements">OUR PLACEMENTS</a>
+             </li>
+
+             <li class="nav-item fs-5 ms-3" style="font-weight:900;">
+                <a class="nav-link" href="http://web.archive.org/web/20210423111751/https://www.luminartechnolab.com/gallery">GALLERY</a>
+             </li>
+
+
+             <li class="nav-item fs-5 ms-3" style="font-weight:900;">
+                <a class="nav-link" href="http://web.archive.org/web/20210423110301/https://www.luminartechnolab.com/contact">CONTACT</a>
+             </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<div  id="carouselExampleIndicators " class="carousel slide"  data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"   data-bs-interval="1000" >
+      <img src="./h1.jpg" class="d-block w-100" style="height: 700px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="font-size: 73px;margin-top:-600px;margin-left: 50px;">Data Science,ML & AI <br> Big Data - Hadoop & Spark <br> Python Data Science</h1><br>
+        
+        <p style="font-size: 25px;padding-top:16px;">We at Luminar TECHNOLAB offers best software training and placement <br> in emerging technologies like BIG DATA,Hadoop,spark,Data science,<br>Machine Learning, Deep Learning and AI </p>
+        <button id="btn2">View Courses</button>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="1000">
+      <img src="./h2.jpg" class="d-block w-100" style="height: 700px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="font-size: 73px;margin-top:-600px;margin-left: 20px;">Kerala's No.1 IT Finishing School</h1><br>
+        <h1 style="font-size: 73px;margin-top:2px;margin-left: 20px;">100% PLACEMENT Assistance</h1>
+        <p style="font-size: 27px;padding-top:16px;">We at Luminar TECHNOLAB offers best software training and placement <br> in emerging technologies like BIG DATA,Data science,Machine Learning,Python,<br>Software Testing. </p>
+        <button id="btn1" style="background-color: #5e068a;margin-left:-600px;">View courses</button>
+      </div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h3 style="margin-left:40px;">Get training quote for free</h3>
+        <input type="text" id="name" placeholder="Name" class="underlined-input" ><br><br><br>
+        <input type="email" id="name" placeholder="email" class="underlined-input" ><br><br><br>
+        
+        <select name="" placeholder="Select courses interested in"  id=""  class="underlined-input">
+            <option value="">Select courses interested in</option>
+            <option value="">LKG</option>
+            <option value="">UKG</option>
+            <option value="">1st standard</option>
+            <option value="">2nd standard</option>
+        </select><br><br><br>
+        <input type="text" id="name" placeholder="city" class="underlined-input" ><br><br><br>
+        
+        <input type="text" id="name" placeholder="comments" class="underlined-input" ><br><br><br>
+
+        <button style="background-color: blueviolet;margin-left:60px;color:aliceblue;">SUBMIT QUERY</button>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container w-75">
+  <div class="row">
+    <div class="col-lg-7">
+      <h1 style="color:#5e068a;;font-weight:700;margin-top:100px;padding-top:22px;font-size:38px;margin-bottom:20px;">Luminar Technolab Pvt Ltd</h1><br><br>
+      <h4 style="color: blueviolet;">CIN: U80220KL2021PTC071578</h4><br>
+      <p style="font-size: 25px;max-width:565px;line-height:40px;margin-bottom:12px;">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced level software training to Students and by helping them to get placed in IT companies. We are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our Vision is to provide 100% placements to students those who enroll with us for our specialized courses.</p>
+      <button id="btn" >LEARN MORE</button>
+    </div>
+    <div class="col-lg-5">
+      <img src="./h6.jpg" alt="" style="width: 100%;margin-top:120px;">
+
+    </div>
+  </div>
+
+
+</div>
+
+
+<div id="cls1">
+  <h3 class="text-center" id="coursesid1">OUR<span style="color:rgb(212, 129, 223);font-weight:bold;"> COURSES</span></h3>
+  <div class=" container m-50 mt-5 border border-light-subtle" id="courseid2">
+    <div class="row">
+       <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="./img6.jpg" alt="1" width="100%" height="300px">
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-12" id="secondgrid">
+       <h3>DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD &amp; TABLEAU</h3>
+       <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+       
+       <i class="fa-solid fa-2x fa-calendar-days"></i>
+       <p style="display:inline-block;">Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am)</p>
+        <br>
+       <i class="fa-solid fa-clock"></i>
+       <p style="display:inline-block;">Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day </p>
+        <br>
+       <i class="fa-solid fa-building-columns"></i>
+       <p style="display:inline-block;">Course Fees</p>
+       <a href="#">VIEW MORE</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>
